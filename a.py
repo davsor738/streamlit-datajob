@@ -4,6 +4,7 @@ Created on Mon Oct 30 15:43:53 2023
 
 @author: kaouther.mimouni_ver
 """
+
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -18,6 +19,7 @@ from imblearn.over_sampling import RandomOverSampler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
+
 df = pd.read_csv("kaggle_survey_2020_responses.csv", sep =",", low_memory = False)
 #Suppression de la ligne 0 (inutile) sur df et data (utilisé pour dataviz)
 questions=df.iloc[0,:]
