@@ -4,12 +4,11 @@ Created on Mon Oct 30 15:43:53 2023
 
 @author: kaouther.mimouni_ver
 """
-import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import streamlit as st
 import seaborn as sns
-
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
