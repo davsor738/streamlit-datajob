@@ -4,10 +4,10 @@ Created on Mon Oct 30 15:43:53 2023
 
 @author: kaouther.mimouni_ver
 """
+import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 from sklearn.model_selection import train_test_split
