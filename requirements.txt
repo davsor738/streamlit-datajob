@@ -1,2 +1,4 @@
-python==3.9.7
-matplotlib==3.4.3
+pandas
+plotly
+streamlit
+matplotlib
